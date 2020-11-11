@@ -30,4 +30,4 @@ $ make qemu
 
 # 作業ログ記事
 
-https://wp.suwa3.me/2019/12/14/os%e8%87%aa%e4%bd%9c/
+https://suwa3.netlify.app/posts/2019-12-14-os%E8%87%AA%E4%BD%9C/
