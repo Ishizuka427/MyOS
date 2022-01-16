@@ -1,33 +1,31 @@
 ![image](https://user-images.githubusercontent.com/56011102/70880319-dea05500-200b-11ea-8dbe-902d34c5349b.png)
 
-# これは何か
+# What is this?
+It's a homebrew OS.
 
-自作OSです
+Displays "Hello, World".
 
-"Hello, World"と表示します
-
-# 実行環境
-
-```
-$ brew install nasm
-$ brew install make
-$ brew install qemu
-```
-
-**nasm**: アセンブラです。機械が理解できる命令プログラム(アセンブリコード)を機械が理解できる命令(バイナリコード)に置き換えてコンピューターが実行できるようにします。
-
-**make**: コンパイルを自動化するツールです。
-
-**qemu**: キューエミューと読みます。自作したOSは、このエミュレーターを介して実行されます。いわゆる仮想マシンです。
-
-※下記のようにmakeコマンドを打つことでqemuエミュレーターが起動し、nasmによってアセンブリファイルがコンパイル実行されます
-
-# 実行コマンド
-
-```
-$ make qemu
+# Execution environment
+macOS
+```sh
+brew install nasm
+brew install make
+brew install qemu
 ```
 
-# 作業ログ記事
+**nasm**: This is Assembler. It replaces assembly code, which is a machine-understandable instruction program, with binary code, which is machine-understandable instructions, so that the computer can execute them.
 
+**make**: This is a tool to automate compilation.
+
+**qemu**: Pronounced "queue emu." The OS that you create yourself is run through this emulator. It is a so-called virtual machine.
+
+By typing the make command as shown below, the `qemu` emulator will start and the assembly file will be compiled and executed by `nasm`.
+
+# Run command
+
+```sh
+make qemu
+```
+
+# Work Log Articles #ja
 https://suwa3.netlify.app/posts/2019-12-14-os自作/
