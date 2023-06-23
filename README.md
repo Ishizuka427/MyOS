@@ -28,4 +28,4 @@ make qemu
 ```
 
 # Work Log Articles #ja
-https://suwa3.netlify.app/posts/2019-12-14-os自作/
+https://hugo.suwa3.me/post/2019-12-14-os%E8%87%AA%E4%BD%9C
